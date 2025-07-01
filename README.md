@@ -1,6 +1,15 @@
-**Dash Reporter** - The quick and easy to use sales report generator
-This project is (obviously) useful for generating sales reports by merely
-adding the customer info, the product info and then your sales (report example at the end)
+# Dash Reporter CLI
+
+A quick and easy to use sales report generator
+This project is (obviously) useful for generating sales reports from CSV data using Python and Pandas.
+
+## Features
+
+- Merges 3 csv files (sales, customer, and product data) into a single sales report
+- Calculates total revenue
+- Sorts (by revenue) and exports report as csv
+- Simple CLI using `argparse`
+- Supports `logging`
 
 **Why Dash Reporter?**
 Dash Reporter is the ultimate tool for creating a sales report in mere seconds!
@@ -8,11 +17,11 @@ You can spare yourself money AND time by simply using Dash Reporter.
 Just enter the paths to your data and you're done! (arguments in the cli are supported using argparse!)
 
 This project runs with the following dependencies:
-- *Python 3.x*
+- *Python 3.8+*
 - *Pandas*
 
 You can run this script simply by downloading the pandas library using
-*pip install pandas*
+`pip install pandas`
 and then just run it using Python.
 
 Example customer csv:
