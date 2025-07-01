@@ -5,7 +5,7 @@ adding the customer info, the product info and then your sales (report example a
 **Why Dash Reporter?**
 Dash Reporter is the ultimate tool for creating a sales report in mere seconds!
 You can spare yourself money AND time by simply using Dash Reporter.
-Just enter the paths to your data and you're done! (arguments in cli are supported using argparse!)
+Just enter the paths to your data and you're done! (arguments in the cli are supported using argparse!)
 
 This project runs with the following dependencies:
 - *Python 3.x*
